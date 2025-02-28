@@ -97,7 +97,7 @@ Best Practices:
 - Ensure **user input is properly handled** to prevent errors.
 - Keep responses **simple and interactive**.
 
-Challenges & Solutions:
+### Challenges & Solutions:
 
 - Losing chat history
 
@@ -112,13 +112,13 @@ Challenges & Solutions:
 - Verified dependencies and environment variables before deploying.
 
  
-Summary:
+### Summary:
 
 - Built a simple chatbot using **Streamlit**.
 - Implemented **chat history retention** using `st.session_state`.
 - Explored **deployment options** using Streamlit Cloud and Heroku.
 
-Next Steps:
+### Next Steps:
 
 - Improve the chatbot by integrating **AI-based responses**.
 - Add **custom styling and UI enhancements**.
