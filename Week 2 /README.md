@@ -1,4 +1,4 @@
-Week 2 Guide: Developing and Deploying a Simple Chatbot
+# Week 2 Guide: Developing and Deploying a Simple Chatbot
 
 Introduction
 
