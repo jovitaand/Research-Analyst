@@ -1,6 +1,6 @@
 # Week 2 Guide: Developing and Deploying a Simple Chatbot
 
-Introduction
+## Introduction
 
 This guide provides step-by-step instructions for building and deploying a simple chatbot using Streamlit. The chatbot captures user input and responds with a message while displaying the chat history. Additionally, we will cover best practices, challenges, and deployment options.
 
