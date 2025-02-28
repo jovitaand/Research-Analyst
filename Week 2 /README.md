@@ -4,9 +4,9 @@
 
 This guide provides step-by-step instructions for building and deploying a simple chatbot using Streamlit. The chatbot captures user input and responds with a message while displaying the chat history. Additionally, we will cover best practices, challenges, and deployment options.
 
-1. Setting Up the Development Environment
+### 1. Setting Up the Development Environment
 
-Step 1: Install Dependencies
+#### Step 1: Install Dependencies
 
 Ensure you have Streamlit installed. If not, install it using:
 
@@ -14,7 +14,7 @@ Ensure you have Streamlit installed. If not, install it using:
 pip install streamlit
 ```
 
-Step 2: Create the Chatbot File
+#### Step 2: Create the Chatbot File
 
 1. Create a new file named `chatbot.py`.
 2. Copy and paste the following chatbot code:
@@ -41,14 +41,13 @@ if user_input:
     with st.chat_message("assistant"):
         st.write(bot_response)
 ```
+### 2. Running the Chatbot Locally
 
-2. Running the Chatbot Locally
-
-Step 1: Navigate to the Project Directory
+#### Step 1: Navigate to the Project Directory
 
 Open a terminal and go to the directory where `chatbot.py` is saved.
 
-Step 2: Run the Streamlit Application
+#### Step 2: Run the Streamlit Application
 
 Execute the following command:
 
@@ -56,12 +55,12 @@ Execute the following command:
 streamlit run chatbot.py
 ```
 
-Step 3: Open in Browser
+#### Step 3: Open in Browser
 
 - The terminal will display a **local URL** (e.g., `http://localhost:8501`).
 - Open this link in a **web browser** to interact with the chatbot.
 
-Step 4: Stop the Chatbot
+#### Step 4: Stop the Chatbot
 
 To **stop** the chatbot, press:
 
@@ -69,7 +68,8 @@ To **stop** the chatbot, press:
 Ctrl + C
 ```
 
-3. Deploying the Chatbot
+### 3. Deploying the Chatbot
+---------------------------
 
 Option 1: Deploy on Streamlit Cloud
 
@@ -99,24 +99,19 @@ Best Practices:
 
 Challenges & Solutions:
 
-Challenge
+- Losing chat history
 
-Solution
+- Used `st.session_state` to retain previous messages.
 
-Losing chat history
+- API response delays
 
-Used `st.session_state` to retain previous messages.
+- Consider adding a loading indicator (`st.spinner`).
 
-API response delays
+- Deployment errors
 
-Consider adding a loading indicator (`st.spinner`).
+- Verified dependencies and environment variables before deploying.
 
-Deployment errors
-
-Verified dependencies and environment variables before deploying.
-
-5. Summary and Next Steps
-
+ 
 Summary:
 
 - Built a simple chatbot using **Streamlit**.
